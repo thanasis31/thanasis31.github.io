@@ -27,7 +27,8 @@ h1, h2, h3, h4, h5, h6
   margin: 0 0 10px 0;}
 
 h2
-{ font: normal 165% Arial, Helvetica, sans-serif;}
+{ font: normal 165% Arial, Helvetica, sans-serif;
+  color: #000000;}
 
 h3
 { font: bold 130% Arial, Helvetica, sans-serif;}
@@ -233,7 +234,7 @@ ul#menu li:hover a
   
 #content_grey
  { width: 920px;
-  height: 160px;
+  height: 50px;
   text-align: center; 
   background: transparent url(../images/menu_pattern.jpg) repeat;
   border-radius: 15px 15px 15px 15px;
@@ -288,9 +289,9 @@ ul#menu li:hover a
  .readmore
 { font: bold 110% Arial, Helvetica, sans-serif;
   height: 15px;
-  width: 80px;
+  width: 100px;
   margin-left: 95px;
-  padding: 5px 2px 7px 2px;
+  padding: 2px 2px 2px 2px;
   background: #fff;
   background: -moz-linear-gradient(#fff, #ccc);
   background: -o-linear-gradient(#fff, #ccc);
@@ -309,7 +310,7 @@ ul#menu li:hover a
 { font: normal 110% Arial, Helvetica, sans-serif;
   height: 15px;
   width: 80px;
-  padding: 5px 2px 7px 2px;
+  padding: 2px 2px 2px 2px;
   background: transparent url(../images/menu_pattern.jpg) repeat;
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
@@ -388,7 +389,7 @@ ul img {
  
 #slideshow-caption {
   width: 680px;
-  height: 38px;
+  height: 0px;
   position: absolute;
   bottom: 0;
   left: 0; 
